@@ -61,4 +61,4 @@ export const getAllBookings = () => async (dispatch) => {
 };
 
 
-// Update app
+// Update app .

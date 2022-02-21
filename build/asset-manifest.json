@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "https://mycarst-backend.herokuapp.com/static/css/main.a234b4b2.chunk.css",
+    "main.js": "https://mycarst-backend.herokuapp.com/static/js/main.a909aaad.chunk.js",
+    "main.js.map": "https://mycarst-backend.herokuapp.com/static/js/main.a909aaad.chunk.js.map",
+    "runtime-main.js": "https://mycarst-backend.herokuapp.com/static/js/runtime-main.74de4671.js",
+    "runtime-main.js.map": "https://mycarst-backend.herokuapp.com/static/js/runtime-main.74de4671.js.map",
+    "static/css/2.2334621b.chunk.css": "https://mycarst-backend.herokuapp.com/static/css/2.2334621b.chunk.css",
+    "static/js/2.ece1f0b9.chunk.js": "https://mycarst-backend.herokuapp.com/static/js/2.ece1f0b9.chunk.js",
+    "static/js/2.ece1f0b9.chunk.js.map": "https://mycarst-backend.herokuapp.com/static/js/2.ece1f0b9.chunk.js.map",
+    "static/js/3.12b5aed5.chunk.js": "https://mycarst-backend.herokuapp.com/static/js/3.12b5aed5.chunk.js",
+    "static/js/3.12b5aed5.chunk.js.map": "https://mycarst-backend.herokuapp.com/static/js/3.12b5aed5.chunk.js.map",
+    "index.html": "https://mycarst-backend.herokuapp.com/index.html",
+    "static/css/2.2334621b.chunk.css.map": "https://mycarst-backend.herokuapp.com/static/css/2.2334621b.chunk.css.map",
+    "static/css/main.a234b4b2.chunk.css.map": "https://mycarst-backend.herokuapp.com/static/css/main.a234b4b2.chunk.css.map",
+    "static/js/2.ece1f0b9.chunk.js.LICENSE.txt": "https://mycarst-backend.herokuapp.com/static/js/2.ece1f0b9.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "https://mycarst-backend.herokuapp.com/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74de4671.js",
+    "static/css/2.2334621b.chunk.css",
+    "static/js/2.ece1f0b9.chunk.js",
+    "static/css/main.a234b4b2.chunk.css",
+    "static/js/main.a909aaad.chunk.js"
+  ]
+}
