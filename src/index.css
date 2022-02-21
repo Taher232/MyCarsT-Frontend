@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+
+
+body {
+  margin: 0;
+  font-family:'Montserrat', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bs1
+{box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09)
+   0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;}
+   .spinner{
+     position: absolute ;
+     top: 50%;
+     left: 50%;
+     z-index:999p;
+   }
+ 
+   h1{
+    font-size: 30px;
+     font-weight:bold ;
+     color: orangered;
+   }
+
+p{
+  margin:5px !important;
+  text-align: right ;
+  padding: 0;
+
+
+}
+
+.btn1{
+box-shadow:none  !important;
+background-color:white !important ;
+color:orangered  !important;
+border: 1px solid orangered !important;
+padding:5px 10px !important;
+outline: none !important ;
+}
+.btn1:focus{
+
+  border:none;
+}
+
+button{
+  
+  padding:3px 10px !important;
+}
+
+.header{
+  padding:  10px ;
+  background-color:azure;
+}
+
+.header .ant-btn {
+  box-shadow:none  !important;
+  background-color:white !important ;
+  color:orangered  !important;
+  border: 1px solid orangered !important;
+  padding:5px 10px !important;
+  outline: none !important ;
+
+  
+}
+.content{
+
+  min-height: 90vh;
+  background-color: azure;
+}
+.carimg{
+  
+  height:190px ;
+  width: auto;
+  border-radius: 5px ;
+  transform :translateY (-50px)
+
+}
+.car-content{
+
+ transition:0.3s ;
+}
+.login{
+
+ /* background-color: black;
+ padding-top:50px ;
+  min-height:100vh ; */
+} 
+.login label, .login h1{
+ color: black!important;
+opacity: 0.6;
+
+}
+.login-Form{
+   background-color:#1F1F1F;
+}
+.login form input{ 
+
+  background-color: #333333 !important;
+  border: none !important ;
+  color:red;
+  opacity:0.5 ;
+}
+.login-logo{
+
+  position: absolute ;
+  left:10;
+  right:0;
+  top:50%;
+  bottom:50%;
+  transform : translateY (-50%,-60%)
+ font-size 45px;
+  opacity :0.2 !important;
+}
+.login a{
+
+color: red;
+opacity :0.5;
+
+
+}
+.carimg2{
+  height:400px;
+  border-radius:10px;
+  width:auto;
+}
