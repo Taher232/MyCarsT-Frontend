@@ -1,11 +1,11 @@
 import { message } from "antd";
 import axios from "axios";
-
+const BASE_URL = process.env.PUBLIC_URL || 'http://localhost:5000'
 export const getAllCars = () => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    const response = await axios.get(`${process.env.PUBLIC_URL}/api/cars/getallcars`);
+    const response = await axios.get(`${BASE_URL}/api/cars/getallcars`);
    
 
     
@@ -20,7 +20,7 @@ export const addcar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    const response = await axios.post(`${process.env.PUBLIC_URL}/api/cars/addcar`, reqObj);
+    const response = await axios.post(`${BASE_URL}/api/cars/addcar`, reqObj);
 
     dispatch({ type: "GET_ALL_CARS", payload: response.data });
     dispatch({ type: "LOADING", payload: false });
@@ -39,7 +39,7 @@ export const editcar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    const response = await axios.post(`${process.env.PUBLIC_URL}/api/cars/editcar`, reqObj);
+    const response = await axios.post(`${BASE_URL}/api/cars/editcar`, reqObj);
 
     dispatch({ type: "GET_ALL_CARS", payload: response.data });
     dispatch({ type: "LOADING", payload: false });
@@ -58,7 +58,7 @@ export const deleteCar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
 
   try {
-    const response = await axios.post(`${process.env.PUBLIC_URL}/api/cars/deletecar`, reqObj);
+    const response = await axios.post(`${BASE_URL}/api/cars/deletecar`, reqObj);
 
     dispatch({ type: "GET_ALL_CARS", payload: response.data });
     dispatch({ type: "LOADING", payload: false });
