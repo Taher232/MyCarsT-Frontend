@@ -5,7 +5,7 @@ export const userLogin = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
   console.log("redux userLogin: ", reqObj);
   try {
-    const response = await axios.post(`${process.env.REACT_APP_BACKEND}/api/users/login`, reqObj);
+    const response = await axios.post(`${process.env.PUBLIC_URL}/api/users/login`, reqObj);
     localStorage.removeItem("user");
     localStorage.setItem("user", JSON.stringify(response.data));
     message.success("Login Success");
@@ -26,7 +26,7 @@ export const userRegister = (reqObj) => async (dispatch) => {
   console.log("register: ", reqObj);
 
   try {
-    const response = await axios.post(`${process.env.REACT_APP_BACKEND}/api/users/register`, reqObj);
+    const response = await axios.post(`${process.env.PUBLIC_URL}/api/users/register`, reqObj);
     
 
 

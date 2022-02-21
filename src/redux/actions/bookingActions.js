@@ -9,7 +9,7 @@ const serviceId = "service_col3qlh";
 export const bookCar = (reqObj) => async (dispatch) => {
   dispatch({ type: "LOADING", payload: true });
   await axios
-    .post(`${process.env.REACT_APP_BACKEND_TEST}/api/bookings/bookCar`, reqObj)
+    .post(`${process.env.PUBLIC_URL}/api/bookings/bookCar`, reqObj)
     .then((res) => {
       message.success("Success");
       const payment = res.data.payment
@@ -49,7 +49,7 @@ export const getAllBookings = () => async (dispatch) => {
 
   try {
     const response = await axios.get(
-      `${process.env.REACT_APP_BACKEND}/api/bookings/getAllBookings`
+      `${process.env.PUBLIC_URL}/api/bookings/getAllBookings`
     );
 
     dispatch({ type: "GET_ALL_BOOKINGS", payload: response.data });
